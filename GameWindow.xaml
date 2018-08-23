@@ -1,0 +1,12 @@
+﻿<Window x:Class="SchiffeVersenken.GameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SchiffeVersenken"
+        mc:Ignorable="d"
+        Title="Schiffe versenken" Height="430" Width="750">
+    <Grid Name="Grid">
+        <Button Name="MainMenue" Content="Back to Menue" HorizontalAlignment="Right" Height="20" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="90" Click="MainMenue_Click"/>
+    </Grid>
+</Window>
